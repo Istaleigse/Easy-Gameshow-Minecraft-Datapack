@@ -1,6 +1,6 @@
 # Easy Gameshow
 
-**Easy Gameshow** turns a Minecraft world into a ready-to-play gameshow studio. It is designed for people who want to host a gameshow with friends without needing to know Minecraft commands or how datapacks work.
+**Easy Gameshow** turns a Minecraft world into a easy-to-setup gameshow studio. It is designed for people who want to host a gameshow with friends without needing to know Minecraft commands or how datapacks work.
 
 ## What is Easy Gameshow?
 
