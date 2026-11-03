@@ -1,7 +1,5 @@
-# Setzt den Mob-Arten-Zähler dieses Spielers zurück.
 scoreboard players reset @a mobtypes
 
-# Widerruft alle 91 Mobcount-Advancements dieses Spielers.
 advancement revoke @s only gs:games/mobcount_single/mobs/allay
 advancement revoke @s only gs:games/mobcount_single/mobs/armadillo
 advancement revoke @s only gs:games/mobcount_single/mobs/axolotl
