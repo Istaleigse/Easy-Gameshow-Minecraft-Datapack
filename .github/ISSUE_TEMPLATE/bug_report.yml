@@ -1,0 +1,51 @@
+name: Bug Report
+description: Report a bug or unexpected behaviour in Easy Gameshow.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a bug!
+        Please provide as much information as possible.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Bug Description
+      description: Describe what happened.
+      placeholder: What went wrong?
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to Reproduce
+      description: How can the bug be reproduced?
+      placeholder: |
+        1. Start the datapack
+        2. ...
+        3. ...
+    validations:
+      required: true
+
+  - type: input
+    id: minecraft-version
+    attributes:
+      label: Minecraft Version
+      placeholder: e.g. 26.3
+    validations:
+      required: true
+
+  - type: input
+    id: datapack-version
+    attributes:
+      label: Datapack Version
+      placeholder: e.g. 1.0.0
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Information
+      description: Add screenshots, error messages or other useful information.
