@@ -1,5 +1,5 @@
 # Easy Gameshow
-inspiration and concept by Bastighg 
+Inspiration and concept by Bastighg 
 
 
 Original Video: https://www.youtube.com/watch?v=X4euGKFMZOU&t=1623s
