@@ -4,6 +4,9 @@ Inspiration and concept by Bastighg
 
 Original Video: https://www.youtube.com/watch?v=X4euGKFMZOU&t
 
+Human made Datapack.
+Only the Readme is done by AI.
+
 **Easy Gameshow** turns a Minecraft world into a easy-to-use gameshow studio. It is designed for people who want to host a gameshow with friends without needing to know Minecraft commands or how datapacks work.
 
 ## What is Easy Gameshow?
