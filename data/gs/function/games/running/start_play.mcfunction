@@ -38,4 +38,6 @@ schedule function gs:games/running/concret 10t
 schedule function gs:games/running/concret 1s
 schedule function gs:games/running/concret 2s
 schedule function gs:games/running/concret 6s
+
+effect give @a minecraft:saturation 20 255 true
 playsound minecraft:block.note_block.bell master @a ~ ~ ~ 1 1 1

@@ -1,6 +1,8 @@
 tellraw @a ["",{"text":"Easy Gameshow","color":"light_purple"},{"text":" by "},{"text":"Istaleigse","color":"gold"},{"text":" is loading...\n\n"}]
 execute as @e[type=minecraft:armor_stand ] at @s run forceload add ~ ~ ~ ~
 gamerule spawn_mobs false
+difficulty normal
+time set noon
 kill @e[type=!player,type=!armor_stand]
 kill @e[type=!player,type=!armor_stand]
 scoreboard objectives add scores dummy "₊˚⊹♡──Scores──♡⊹˚"
@@ -10,6 +12,7 @@ scoreboard objectives add gs_pick_p1 trigger
 scoreboard objectives add gs_pick_p2 trigger
 scoreboard objectives add gs_pick_p3 trigger
 scoreboard objectives add gs_pick_p4 trigger
+scoreboard objectives add mobtypes dummy "Mobs:"
 scoreboard objectives add timer dummy "Timer"
 scoreboard objectives add alarm dummy "alarm"
 scoreboard objectives add xdist dummy
