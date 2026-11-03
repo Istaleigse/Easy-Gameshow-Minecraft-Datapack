@@ -1,4 +1,6 @@
 # Easy Gameshow
+inspired by Bastighg
+game concept by Bastighg
 
 **Easy Gameshow** turns a Minecraft world into a easy-to-setup gameshow studio. It is designed for people who want to host a gameshow with friends without needing to know Minecraft commands or how datapacks work.
 
@@ -12,9 +14,9 @@ For example:
 
 Each player secretly writes down what they think they can achieve. The host then reveals the answers in the studio.
 
-The player whose estimate is best placed has to attempt the challenge. If they achieve the target they predicted, they earn points. If they do not, players with the next-best estimates can receive fewer points.
+The player whose estimate is the highest has to attempt the challenge. If they achieve the target they predicted, they earn points. If they do not, players with the next-best estimates can receive fewer points.
 
-This means players have to balance confidence with realistic expectations. Overestimating yourself can be risky, but underestimating everyone else can be risky too.
+This means players have to balance confidence with realistic expectations. Overestimating yourself can be risky, but underestimating can be risky too.
 
 ## Getting started
 
@@ -59,25 +61,15 @@ You do not need to enter commands or know how the datapack is built. The gamesho
 Use the Setup item to prepare the studio. You can choose where important parts of the gameshow should be placed, for example:
 
 - the main board in the studio;
-- the individual challenge boards;
+- the individual player boards;
 - the participants' seats;
-- other locations needed for the gameshow.
+- and other locations needed for the gameshow.
 
-The setup is done in-game by selecting the relevant locations.
+The setup is done in-game by going to the relevant locations and interacting with a menu.
 
 ### Gamecontrol item
 
-Use the Gamecontrol item to guide the host through the gameshow. It is intended to take you through the different stages of a round, so you can manage the show from the studio instead of remembering commands.
-
-## The aim of the game
-
-The aim is to understand yourself and the other players:
-
-- **Do not overestimate yourself:** a high target may be difficult to achieve.
-- **Do not underestimate yourself:** a realistic but confident estimate can pay off.
-- **Read the other players:** their estimates can be just as important as your own.
-
-The winner is not necessarily the player who is best at every challenge. It is the player who makes the smartest estimates and performs when it matters.
+Use the Gamecontrol item to guide as the host through the gameshow. It is intended to take you through the different stages of a round, so you can manage the show from the studio instead of remembering commands.
 
 ---
 
