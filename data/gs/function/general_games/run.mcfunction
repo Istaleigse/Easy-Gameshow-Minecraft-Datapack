@@ -1,0 +1,1 @@
+$clone ~ ~ ~ ~19 ~14 ~ $(tx) $(ty) $(tz) replace

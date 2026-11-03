@@ -1,0 +1,1 @@
+$execute as @a[scores={gs_menu_id=$(id)}] at @s run function gs:setup/assign_p4

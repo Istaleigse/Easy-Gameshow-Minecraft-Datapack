@@ -1,0 +1,1 @@
+execute as @e[tag=running_start] at @s run fill ~5 ~-1 ~ ~-5 ~-1 ~ minecraft:red_concrete
