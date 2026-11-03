@@ -1,6 +1,5 @@
 # Easy Gameshow
-inspired by Bastighg
-game concept by Bastighg
+inspiration and concept by Bastighg https://www.youtube.com/watch?v=X4euGKFMZOU&t=1623s
 
 **Easy Gameshow** turns a Minecraft world into a easy-to-setup gameshow studio. It is designed for people who want to host a gameshow with friends without needing to know Minecraft commands or how datapacks work.
 
