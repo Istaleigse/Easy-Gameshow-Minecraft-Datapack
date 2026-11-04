@@ -19,6 +19,8 @@ scoreboard objectives add xdist dummy
 scoreboard objectives add random dummy
 scoreboard players set #minus1 random -1
 scoreboard players set #minus1 xdist -1
+scoreboard objectives add mobkill minecraft.custom:minecraft.mob_kills "Mobs:"
+scoreboard objectives add mobkill_save dummy
 scoreboard objectives modify xdist displayname {"text":"Distanz","color":"gold"}
 team add p1 "p1"
 team add p2 "p2"
