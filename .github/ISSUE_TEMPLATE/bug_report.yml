@@ -38,11 +38,6 @@ body:
     validations:
       required: true
 
-  - type: input
-    id: datapack-version
-    attributes:
-      label: Datapack Version
-      placeholder: e.g. 1.0.0
 
   - type: textarea
     id: additional
