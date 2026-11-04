@@ -18,4 +18,6 @@ kill @e[type=item]
 clear @a[tag=!gamemaster]
 gamemode adventure @a[tag=!gamemaster]
 scoreboard objectives setdisplay sidebar scores
+scoreboard players set Done: timer -2
+scoreboard players set Left: timer -2
 playsound minecraft:block.note_block.bell
