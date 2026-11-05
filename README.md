@@ -1,10 +1,11 @@
 # Easy Gameshow
 Inspiration and concept by Bastighg 
-Ig you used the datapack please let me know your thoughts. 
-
-Updates coming in the future - I’ve just started the project
 
 Original Video: https://www.youtube.com/watch?v=X4euGKFMZOU&t
+
+If you used the datapack please let me know your thoughts. 
+
+Updates coming in the future - I’ve just started the project
 
 Human made Datapack.
 Only the Readme and License are done by AI.
