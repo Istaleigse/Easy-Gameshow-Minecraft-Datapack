@@ -1,15 +1,16 @@
 # Easy Gameshow
 Inspiration and concept by Bastighg 
+Ig you used the datapack please let me know your thoughts. 
 
+Updates coming in the future - I’ve just started the project
 
 Original Video: https://www.youtube.com/watch?v=X4euGKFMZOU&t
 
 Human made Datapack.
-
+Only the Readme and License are done by AI.
 
 The Datapack only functions on the minecraft version 26.3!
 
-Only the Readme and License are done by AI.
 
 **Easy Gameshow** turns a Minecraft world into a easy-to-use gameshow studio. It is designed for people who want to host a gameshow with friends without needing to know Minecraft commands or how datapacks work.
 
