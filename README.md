@@ -10,7 +10,7 @@ Updates coming in the future - I’ve just started the project
 Human made Datapack.
 Only the Readme and License are done by AI.
 
-The Datapack only functions on the minecraft version 26.3!
+The Datapack is only tested on the minecraft version 26.3. The version 26.2 may work as well.
 
 
 **Easy Gameshow** turns a Minecraft world into a easy-to-use gameshow studio. It is designed for people who want to host a gameshow with friends without needing to know Minecraft commands or how datapacks work.
@@ -97,6 +97,6 @@ Use the Gamecontrol item to guide as the host through the gameshow. It is intend
   - How much xp can you get?
   - How high can you get in 5min?
   
----
+₊˚⊹♡─────────────────────────────────────────────────────────────♡⊹˚₊
 
 **Have fun hosting your gameshow!**
