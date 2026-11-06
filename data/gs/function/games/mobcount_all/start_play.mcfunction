@@ -36,4 +36,5 @@ scoreboard players reset @s mobkill
 scoreboard players set @a[tag=playing] mobkill 0
 
 effect give @a minecraft:saturation 20 255 true
+setworldspawn ~ ~ ~
 playsound minecraft:block.note_block.bell master @a ~ ~ ~ 1 1 1

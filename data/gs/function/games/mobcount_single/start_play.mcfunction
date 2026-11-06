@@ -36,4 +36,5 @@ execute as @a run function gs:games/mobcount_single/reset
 scoreboard players set @a[tag=playing] mobtypes 0
 
 effect give @a minecraft:saturation 20 255 true
+setworldspawn ~ ~ ~
 playsound minecraft:block.note_block.bell master @a ~ ~ ~ 1 1 1

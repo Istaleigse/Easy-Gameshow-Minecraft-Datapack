@@ -22,6 +22,9 @@ scoreboard players set #minus1 xdist -1
 scoreboard objectives add mobkill minecraft.custom:minecraft.mob_kills "Mobs:"
 scoreboard objectives add mobkill_save dummy
 scoreboard objectives modify xdist displayname {"text":"Distanz","color":"gold"}
+scoreboard players set Left: timer -1
+scoreboard players set Done: timer -2
+scoreboard players set @a scores 0
 team add p1 "p1"
 team add p2 "p2"
 team add p3 "p3"
@@ -37,12 +40,12 @@ team modify p4 color dark_purple
 scoreboard players reset @a scores
 scoreboard objectives setdisplay sidebar scores
 kill @e[type=!player,type=!armor_stand]
-
+gamerule immediate_respawn true
 
 clear @a minecraft:written_book[minecraft:written_book_content~{title:"Easy Gameshow Setup"}]
 clear @a minecraft:written_book[minecraft:written_book_content~{title:"Gamecontrol"}]
 clear @a minecraft:written_book[minecraft:written_book_content~{title:"Point management"}]
-clear @a minecraft:written_book[minecraft:written_book_content~{title:"End the Minigame"}]
+clear @a minecraft:written_book[minecraft:written_book_content~{title:"Back to Studio"}]
 
 
 playsound minecraft:entity.experience_orb.pickup master @a ~ ~ ~ 1 1 1
