@@ -84,6 +84,13 @@ It may be that every player needs op rights right now. I will change this in the
 
 Use the Gamecontrol item to guide as the host through the gameshow. It is intended to take you through the different stages of a round, so you can manage the show from the studio instead of remembering commands.
 
+
+###Todo###
+
+- No Op needed
+- New Games:
+  - How fast can you get a iron pickaxe?
+  - 
 ---
 
 **Have fun hosting your gameshow!**
