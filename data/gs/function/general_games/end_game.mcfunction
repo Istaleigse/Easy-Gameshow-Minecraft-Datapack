@@ -1,5 +1,6 @@
 scoreboard players set Left: timer -1
-scoreboard players set Done: timer -2
+schedule clear gs:general_games/timer_stop_watch
+scoreboard players set Done: timer -1
 kill @e[type=!minecraft:armor_stand,type=!player]
 kill @e[type=!minecraft:armor_stand,type=!player]
 kill @e[type=!minecraft:armor_stand,type=!player]

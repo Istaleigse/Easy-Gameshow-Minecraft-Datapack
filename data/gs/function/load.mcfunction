@@ -3,8 +3,8 @@ execute as @e[type=minecraft:armor_stand ] at @s run forceload add ~ ~ ~ ~
 gamerule spawn_mobs false
 difficulty normal
 time set noon
-kill @e[type=!player,type=!armor_stand]
-kill @e[type=!player,type=!armor_stand]
+kill @e[type=!player,type=!armor_stand,type=!cushion]
+kill @e[type=!player,type=!armor_stand,type=!cushion]
 scoreboard objectives add scores dummy "₊˚⊹♡──Scores──♡⊹˚"
 scoreboard objectives add gs_menu_id dummy
 scoreboard objectives add gs_counter dummy
@@ -23,7 +23,8 @@ scoreboard objectives add mobkill minecraft.custom:minecraft.mob_kills "Mobs:"
 scoreboard objectives add mobkill_save dummy
 scoreboard objectives modify xdist displayname {"text":"Distanz","color":"gold"}
 scoreboard players set Left: timer -1
-scoreboard players set Done: timer -2
+schedule clear gs:general_games/timer_stop_watch
+scoreboard players set Done: timer -1
 scoreboard players set @a scores 0
 team add p1 "p1"
 team add p2 "p2"
@@ -39,7 +40,7 @@ team modify p3 color dark_blue
 team modify p4 color dark_purple
 scoreboard players reset @a scores
 scoreboard objectives setdisplay sidebar scores
-kill @e[type=!player,type=!armor_stand]
+kill @e[type=!player,type=!armor_stand,type=!cushion]
 gamerule immediate_respawn true
 gamerule send_command_feedback false
 
@@ -53,4 +54,4 @@ playsound minecraft:entity.experience_orb.pickup master @a ~ ~ ~ 1 1 1
 tellraw @a ["",{"text":"Easy Gameshow","color":"light_purple"},{"text":" by "},{"text":"Istaleigse","color":"gold"},{"text":" is ready!\n"},{"text":"Have Fun!","italic":true}]
 
 tellraw @a [{"text":"Click here to get started","click_event":{"action":"run_command","command":"/function gs:gm_loadout"},"color":"red"},]
-kill @e[type=!player,type=!armor_stand]
+kill @e[type=!player,type=!armor_stand,type=!cushion]

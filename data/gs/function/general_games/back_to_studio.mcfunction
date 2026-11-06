@@ -18,6 +18,7 @@ kill @e[type=item]
 clear @a[tag=!gamemaster]
 gamemode adventure @a[tag=!gamemaster]
 scoreboard objectives setdisplay sidebar scores
-scoreboard players set Done: timer -2
-scoreboard players set Left: timer -2
+schedule clear gs:general_games/timer_stop_watch
+scoreboard players set Done: timer -1
+scoreboard players set Left: timer -1
 playsound minecraft:block.note_block.bell
