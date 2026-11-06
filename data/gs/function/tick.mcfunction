@@ -3,15 +3,12 @@ execute as @a[scores={gs_pick_p2=1..}] run function gs:setup/process_p2
 execute as @a[scores={gs_pick_p3=1..}] run function gs:setup/process_p3
 execute as @a[scores={gs_pick_p4=1..}] run function gs:setup/process_p4
 
-effect give @a[tag=playing] saturation 1 255 true
+effect give @a[tag=!playing] saturation 1 255 true
 effect clear @a[tag=playing] saturation
 
 execute if score Left: timer matches 0.. run title @a actionbar [{"text":"Time left: ","color":"gold"},{"score":{"name":"Left:","objective":"timer"},"color":"white"},{"text":"s","color":"white"}]
 
 execute if score Done: timer matches 0.. run title @a actionbar [{"text":"Time passed: ","color":"gold"},{"score":{"name":"Done:","objective":"timer"},"color":"white"},{"text":"s","color":"white"}]
-
-##clear @a[tag=!gamemaster] minecraft:written_book[minecraft:written_book_content~{title:"Gamecontrol"}]
-
 
 
 execute store result score #standX xdist run data get entity @e[type=minecraft:armor_stand,tag=running_start,limit=1] Pos[0] 1

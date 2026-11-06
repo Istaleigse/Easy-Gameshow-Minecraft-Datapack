@@ -1,4 +1,4 @@
-$tellraw @a[tag=gs_menu_viewer] [{"text":" • "},{"selector":"@s","click_event":{"action":"run_command","command":"/trigger $(trigger) set $(id)"}},{"text":"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"},{"text":"₊˚⊹♡────────────Open the Chat────────────♡⊹˚₊"}]
+$tellraw @a[tag=gs_menu_viewer] [{"text":" • "},{"selector":"@s","click_event":{"action":"run_command","command":"/trigger $(trigger) set $(id)"}},{"text":"\n\n₊˚⊹♡────────────Open the Chat────────────♡⊹˚₊"}]
 
 
 
