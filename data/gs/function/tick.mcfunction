@@ -3,6 +3,9 @@ execute as @a[scores={gs_pick_p2=1..}] run function gs:setup/process_p2
 execute as @a[scores={gs_pick_p3=1..}] run function gs:setup/process_p3
 execute as @a[scores={gs_pick_p4=1..}] run function gs:setup/process_p4
 
+effect give @a[tag=playing] saturation 1 255 true
+effect clear @a[tag=playing] saturation
+
 execute if score Left: timer matches 0.. run title @a actionbar [{"text":"Time left: ","color":"gold"},{"score":{"name":"Left:","objective":"timer"},"color":"white"},{"text":"s","color":"white"}]
 
 execute if score Done: timer matches 0.. run title @a actionbar [{"text":"Time passed: ","color":"gold"},{"score":{"name":"Done:","objective":"timer"},"color":"white"},{"text":"s","color":"white"}]
