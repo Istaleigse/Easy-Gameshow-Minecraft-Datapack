@@ -67,6 +67,8 @@ When the datapack has loaded, it will display an information message in chat. Us
 
 You do not need to enter commands or know how the datapack is built. The gameshow is controlled with in-game items and clickable menus.
 
+The Gamemaster needs OP Rights
+
 ### Setup item
 
 Use the Setup item to prepare the studio. You can choose where important parts of the gameshow should be placed, for example:
@@ -87,7 +89,6 @@ Use the Gamecontrol item to guide as the host through the gameshow. It is intend
 
 ### Todo
 
-- No Op needed
 - Saturation in studio
 - Assign players doesnt show all players / only one!
 - studio respawn point in the setup menu
