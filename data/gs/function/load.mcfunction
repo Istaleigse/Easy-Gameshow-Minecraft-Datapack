@@ -41,6 +41,7 @@ scoreboard players reset @a scores
 scoreboard objectives setdisplay sidebar scores
 kill @e[type=!player,type=!armor_stand]
 gamerule immediate_respawn true
+gamerule send_command_feedback false
 
 clear @a minecraft:written_book[minecraft:written_book_content~{title:"Easy Gameshow Setup"}]
 clear @a minecraft:written_book[minecraft:written_book_content~{title:"Gamecontrol"}]
