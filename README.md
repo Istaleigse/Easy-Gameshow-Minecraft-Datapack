@@ -67,7 +67,7 @@ When the datapack has loaded, it will display an information message in chat. Us
 
 You do not need to enter commands or know how the datapack is built. The gameshow is controlled with in-game items and clickable menus.
 
-The Gamemaster needs OP Rights
+**The Gamemaster needs OP Rights!**
 
 ### Setup item
 
