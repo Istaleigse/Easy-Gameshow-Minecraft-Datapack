@@ -91,6 +91,7 @@ Use the Gamecontrol item to guide as the host through the gameshow. It is intend
 - Saturation in studio
 - Assign players doesnt show all players / only one!
 - studio respawn point in the setup menu
+- replace old studio board when placing new one
 - New Games:
   - How fast can you get a iron pickaxe?
   - Running in one direction but in the nether
