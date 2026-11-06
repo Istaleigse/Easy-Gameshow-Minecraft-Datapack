@@ -89,7 +89,6 @@ Use the Gamecontrol item to guide as the host through the gameshow. It is intend
 
 ### Todo
 
-- Assign players doesnt show all players / only one!
 - New Games:
   - How fast can you get a iron pickaxe?
   - Running in one direction but in the nether
