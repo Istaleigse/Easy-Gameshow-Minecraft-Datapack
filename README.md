@@ -8,14 +8,14 @@ If you used the datapack please let me know your thoughts.
 Updates coming in the future - I’ve just started the project
 
 Human made Datapack.
-Only the Readme and License are done by AI.
+Only the Readme and License are polished by AI.
 
 The Datapack is only tested on the minecraft version 26.3. The version 26.2 may work as well.
 
 
-**Easy Gameshow** turns a Minecraft world into a easy-to-use gameshow studio. It is designed for people who want to host a gameshow with friends without needing to know Minecraft commands or how datapacks work.
+**Easy Gameshow** turns a Minecraft world into a easy-to-use gameshow studio. And you dont need any Knowledge about commands or datapacks.
 
-## What is Easy Gameshow?
+## What can you do with Easy Gameshow?
 
 Easy Gameshow is a party gameshow for **four players** + Gamemaster. The players take part in challenges, but the most important part is not simply being the fastest or best at a task: it is knowing what you and the other players are capable of.
 
@@ -23,7 +23,7 @@ For example:
 
 > How many blocks can you travel in one direction within a set amount of time?
 
-Each player secretly writes down what they think they can achieve. The host then reveals the answers in the studio.
+Each player secretly writes down what they think they can achieve. After that the Host can reveal the guesses.
 
 The player whose estimate is the highest has to attempt the challenge. If they achieve the target they predicted, they earn points. If they do not, players with the next-best estimates can receive fewer points.
 
