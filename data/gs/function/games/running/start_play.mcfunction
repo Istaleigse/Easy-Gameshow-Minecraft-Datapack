@@ -31,7 +31,6 @@ tp @a @a[tag=gamemaster,limit=1]
 
 execute as @a[tag=gamemaster] at @s run summon armor_stand ~ ~ ~ {NoGravity:1b,Silent:1b,Invulnerable:1b,HasVisualFire:0b,ShowArms:0b,Small:1b,Marker:1b,Invisible:1b,NoBasePlate:1b,Tags:["running_start"]}
 function gs:general_games/timer_stop_watch
-function gs:general_games/timer_stop_watch
 execute as @e[type=minecraft:armor_stand] at @s run forceload add ~ ~ ~ ~
 scoreboard objectives setdisplay sidebar xdist
 execute as @e[tag=running_start] at @s run fill ~5 ~-1 ~ ~-5 ~-1 ~ minecraft:red_concrete
@@ -43,5 +42,5 @@ schedule function gs:games/running/concret 6s
 
 effect give @a minecraft:saturation 20 255 true
 scoreboard players reset @a[tag=!playing] xdist
-setworldspawn ~ ~ ~
+execute as @a[tag=gamemaster] at @s run setworldspawn ~ ~ ~
 playsound minecraft:block.note_block.bell master @a ~ ~ ~ 1 1 1

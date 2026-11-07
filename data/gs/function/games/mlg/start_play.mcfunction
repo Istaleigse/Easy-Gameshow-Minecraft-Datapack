@@ -6,5 +6,5 @@ clear @a[tag=!gamemaster]
 give @a[tag=playing] water_bucket
 
 effect give @a minecraft:saturation 20 255 true
-setworldspawn ~ ~ ~
+execute as @a[tag=gamemaster] at @s run setworldspawn ~ ~ ~
 playsound minecraft:block.note_block.bell master @a ~ ~ ~ 1 1 1

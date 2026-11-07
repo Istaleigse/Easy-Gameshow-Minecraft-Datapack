@@ -17,6 +17,8 @@ scoreboard objectives add timer dummy "Timer"
 scoreboard objectives add alarm dummy "alarm"
 scoreboard objectives add xdist dummy
 scoreboard objectives add random dummy
+scoreboard objectives add hight dummy "Hight:"
+scoreboard objectives add levels dummy "Levels:"
 scoreboard players set #minus1 random -1
 scoreboard players set #minus1 xdist -1
 scoreboard objectives add mobkill minecraft.custom:minecraft.mob_kills "Mobs:"

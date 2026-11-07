@@ -18,3 +18,8 @@ execute as @a[tag=playing] store result score @s xdist run data get entity @s Po
 execute as @a[tag=playing] run scoreboard players operation @s xdist -= #standX xdist
 
 execute as @a[tag=playing] if score @s xdist matches ..-1 run scoreboard players operation @s xdist *= #minus1 xdist
+
+
+execute as @a[tag=playing] store result score @s hight run data get entity @s Pos[1] 1
+
+execute as @a[tag=playing] store result score @s levels run experience query @s levels
