@@ -17,7 +17,7 @@ The Datapack is only tested on the minecraft version 26.3. The version 26.2 may 
 
 ## What can you do with Easy Gameshow?
 
-Easy Gameshow is a party gameshow for **four players** + Gamemaster. The players take part in challenges, but the most important part is not simply being the fastest or best at a task: it is knowing what you and the other players are capable of.
+Easy Gameshow is a party gameshow for **four players + Gamemaster**. The players take part in challenges, but the most important part is not simply being the fastest or best at a task: it is knowing what you and the other players are capable of.
 
 For example:
 
