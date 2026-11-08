@@ -22,6 +22,10 @@ scoreboard objectives add levels dummy "Levels:"
 scoreboard players set #minus1 random -1
 scoreboard players set #minus1 xdist -1
 scoreboard objectives add mobkill minecraft.custom:minecraft.mob_kills "Mobs:"
+scoreboard objectives add damage minecraft.custom:minecraft.damage_taken
+scoreboard objectives add damage_hearts dummy "Damage:"
+scoreboard objectives add gs_const dummy
+scoreboard players set #20 gs_const 20
 scoreboard objectives add mobkill_save dummy
 scoreboard objectives modify xdist displayname {"text":"Distanz","color":"gold"}
 scoreboard players set Left: timer -1

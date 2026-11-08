@@ -18,7 +18,7 @@ function gs:general_games/teleport_players with storage gs:temp
 
 clear @a[tag=!gamemaster]
 
-execute as @a[tag=gamemaster] at @s run spreadplayers ~ ~ 400 400 false @s
+execute as @a[tag=gamemaster] at @s run spreadplayers ~ ~ 1000 1000 false @s
 tp @a @a[tag=gamemaster,limit=1]
 
 experience set @a 0 levels

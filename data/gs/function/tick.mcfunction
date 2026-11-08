@@ -23,3 +23,6 @@ execute as @a[tag=playing] if score @s xdist matches ..-1 run scoreboard players
 execute as @a[tag=playing] store result score @s hight run data get entity @s Pos[1] 1
 
 execute as @a[tag=playing] store result score @s levels run experience query @s levels
+
+execute as @a run scoreboard players operation @s damage_hearts = @s damage
+execute as @a run scoreboard players operation @s damage_hearts /= #20 gs_const

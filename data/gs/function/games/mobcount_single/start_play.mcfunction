@@ -26,7 +26,7 @@ function gs:general_games/teleport_players with storage gs:temp
 
 clear @a[tag=!gamemaster]
 
-execute as @a[tag=gamemaster] at @s run spreadplayers ~ ~ 400 400 false @s
+execute as @a[tag=gamemaster] at @s run spreadplayers ~ ~ 1000 1000 false @s
 tp @a @a[tag=gamemaster,limit=1]
 
 function gs:general_games/timer_5min
@@ -35,6 +35,9 @@ scoreboard objectives setdisplay sidebar mobtypes
 execute as @a run function gs:games/mobcount_single/reset
 scoreboard players set @a[tag=playing] mobtypes 0
 
+
+experience set @a 0 levels
+experience set @a 0 points
 effect give @a minecraft:saturation 20 255 true
 execute as @a[tag=gamemaster] at @s run setworldspawn ~ ~ ~
 playsound minecraft:block.note_block.bell master @a ~ ~ ~ 1 1 1
