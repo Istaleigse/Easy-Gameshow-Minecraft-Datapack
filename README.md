@@ -93,9 +93,6 @@ Use the Gamecontrol item to guide as the host through the gameshow. It is intend
   - How fast can you get a iron pickaxe?
   - Running in one direction but in the nether
   - How many advancements
-  - How much damage can you get? (if you die you lose!)
-  - How much xp can you get?
-  - How high can you get in 5min?
  
 ────────────────────────────────────────
 
