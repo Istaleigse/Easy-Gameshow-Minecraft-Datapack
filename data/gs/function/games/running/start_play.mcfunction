@@ -1,7 +1,7 @@
 kill @e[tag=running_start]
 
-execute store result score #x random run random value 20000..60000
-execute store result score #z random run random value 20000..60000
+execute store result score #x random run random value 20000..90000
+execute store result score #z random run random value 20000..90000
 
 execute store result score #xs random run random value 0..1
 execute store result score #zs random run random value 0..1
