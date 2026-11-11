@@ -13,7 +13,7 @@ Only the Readme and License are polished by AI.
 The Datapack is only tested on the minecraft version 26.3. The version 26.2 may work as well.
 
 
-**Easy Gameshow** turns a Minecraft world into a easy-to-use gameshow studio. And you dont need any Knowledge about commands or datapacks.
+**Easy Gameshow** turns a Minecraft world into a easy-to-use gameshow studio. And you dont need any Knowledge about commands or datapacks to use it. 
 
 ## What can you do with Easy Gameshow?
 
@@ -25,7 +25,7 @@ For example:
 
 Each player secretly writes down what they think they can achieve. After that the Host can reveal the guesses.
 
-The player whose estimate is the highest has to attempt the challenge. If they achieve the target they predicted, they earn points. If they do not, players with the next-best estimates can receive fewer points.
+The player whose estimate is the highest has to attempt the challenge. If they achieve the target they predicted, they earn points. If they do not, the players with the next-best estimates can receive fewer points.
 
 This means players have to balance confidence with realistic expectations. Overestimating yourself can be risky, but underestimating can be risky too.
 
@@ -78,19 +78,17 @@ Use the Setup item to prepare the studio. You can choose where important parts o
 - the participants' seats;
 - and other locations needed for the gameshow.
 
-The setup is done in-game by going to the relevant locations and interacting with a menu.
-
-It may be that every player needs op rights right now. I will change this in the future.
+The setup is done in-game by going to the locations where you want something and interacting with a menu.
 
 ### Gamecontrol item
 
-Use the Gamecontrol item to guide as the host through the gameshow. It is intended to take you through the different stages of a round, so you can manage the show from the studio instead of remembering commands.
+As the Gamemaster use the Gamecontrol item to guide through the gameshow. It is intended to take you through the different stages of a round, so you can manage everything via easy to use ingame menus. 
 
 
 ### Todo
 
 - New Games:
-  - How fast can you get a iron pickaxe?
+  - How fast can you get an iron pickaxe? (or putter items)
   - Running in one direction but in the nether
   - How many advancements
  
